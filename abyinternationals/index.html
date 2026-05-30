@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABY International Travels — Flights & Global Import-Export Logistics</title>
+  <meta name="description"
+    content="Secure airline tickets, direct flights, and comprehensive global import-export logistics. ABY International Travel connects you to international destinations and manages your commercial trade shipments.">
+
+  <!-- Font and Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Noise Overlay for premium texture -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- ==========================================
+       NAVIGATION BAR
+       ========================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-brand" id="nav-logo-link">
+        ABY
+        <span class="sub-brand">International Travel</span>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#services" class="nav-link" id="link-services">Services</a></li>
+        <li><a href="#destinations" class="nav-link" id="link-destinations">Destinations</a></li>
+        <li><a href="#about" class="nav-link" id="link-about">Why ABY</a></li>
+        <li><a href="#trade" class="nav-link" id="link-trade">Import & Export</a></li>
+        <li><a href="#testimonials" class="nav-link" id="link-testimonials">Reviews</a></li>
+        <li><a href="#contact" class="nav-link" id="link-contact">Contact</a></li>
+        <li><a href="#contact" class="nav-cta" id="cta-nav-book">Book Now</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
+  <header class="hero" id="home">
+    <video autoplay muted loop playsinline class="hero-video-bg" id="hero-bg-video">
+      <source src="assets/hero-video.mp4" type="video/mp4">
+      Your browser does not support HTML5 video tags.
+    </video>
+    <div class="hero-overlay"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-tagline">Connecting Travel & Trade</span>
+        <h1 id="hero-title">Global Travel. <span>Seamless Trade.</span></h1>
+        <p class="hero-description">
+          We secure flights to international business hubs and manage commercial cargo logistics from our local
+          headquarters. You get direct air transport and complete customs clearance.
+        </p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn-primary" id="cta-hero-book">Book Flight Tickets</a>
+          <a href="#contact" class="btn-secondary" id="cta-hero-consult">Consult Logistics Team</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       SERVICES SECTION
+       ========================================== -->
+  <section class="services-section section-padding reveal" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span>Tailored Solutions</span>
+        <h2>Our Core Services</h2>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service Card 1 -->
+        <div class="service-card reveal reveal-delay-1" id="service-card-flights">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M22 2L15 22L11 13L2 9L22 2Z"></path>
+              <path d="M11 13L22 2"></path>
+            </svg>
+          </div>
+          <h3>Airline Tickets</h3>
+          <p>
+            We book seats and direct routing across eighty international airline carriers. You get business itineraries,
+            group bookings, and direct visa documentation assistance.
+          </p>
+          <a href="#contact" class="service-link" id="link-service-flights">
+            Book Flight
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="service-card reveal reveal-delay-2" id="service-card-import">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+          </div>
+          <h3>Import Services</h3>
+          <p>
+            Our agents source electronics, machinery components, and textile raw materials from international suppliers.
+            We handle harbor clearing, tariff documentation, and local transport.
+          </p>
+          <a href="#contact" class="service-link" id="link-service-import">
+            Import Enquiry
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="service-card reveal reveal-delay-3" id="service-card-export">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+          </div>
+          <h3>Export Services</h3>
+          <p>
+            We transport garments, leather goods, and agricultural products to global buyers. We manage air freight
+            space allocation, ocean bill of lading records, and customs declarations.
+          </p>
+          <a href="#contact" class="service-link" id="link-service-export">
+            Export Cargo
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       DESTINATIONS SHOWCASE
+       ========================================== -->
+  <section class="destinations-section section-padding reveal" id="destinations">
+    <div class="container">
+      <div class="section-header">
+        <span>Global Network</span>
+        <h2>Popular Destinations</h2>
+      </div>
+
+      <div class="destinations-grid">
+        <!-- Dubai -->
+        <div class="destination-card large reveal reveal-delay-1" id="dest-dubai">
+          <img src="assets/dubai.png" alt="Dubai skyline during golden hour" class="destination-img">
+          <div class="destination-overlay">
+            <h4>Dubai</h4>
+            <span class="destination-tag">Business & Luxury</span>
+          </div>
+        </div>
+
+        <!-- Istanbul -->
+        <div class="destination-card tall reveal reveal-delay-2" id="dest-istanbul">
+          <img src="assets/istanbul.png" alt="Istanbul mosque at twilight" class="destination-img">
+          <div class="destination-overlay">
+            <h4>Istanbul</h4>
+            <span class="destination-tag">Cultural Crossroads</span>
+          </div>
+        </div>
+
+        <!-- London -->
+        <div class="destination-card reveal reveal-delay-3" id="dest-london">
+          <img src="assets/london.png" alt="London bridge in blue hour light" class="destination-img">
+          <div class="destination-overlay">
+            <h4>London</h4>
+            <span class="destination-tag">Global Finance</span>
+          </div>
+        </div>
+
+        <!-- Bangkok -->
+        <div class="destination-card reveal reveal-delay-1" id="dest-bangkok">
+          <img src="assets/bangkok.png" alt="Bangkok golden temple on riverfront" class="destination-img">
+          <div class="destination-overlay">
+            <h4>Bangkok</h4>
+            <span class="destination-tag">Trade & Sourcing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       WHY CHOOSE US / STATS
+       ========================================== -->
+  <section class="stats-section section-padding" id="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item" id="stat-tickets">
+          <div class="stat-number" data-target="15000" data-suffix="+">0+</div>
+          <span class="stat-label">Tickets Issued</span>
+        </div>
+        <div class="stat-item" id="stat-trade">
+          <div class="stat-number" data-target="240" data-suffix="+">0+</div>
+          <span class="stat-label">Corporate Accounts</span>
+        </div>
+        <div class="stat-item" id="stat-destinations">
+          <div class="stat-number" data-target="35" data-suffix="">0</div>
+          <span class="stat-label">Countries Served</span>
+        </div>
+        <div class="stat-item" id="stat-experience">
+          <div class="stat-number" data-target="12" data-suffix="">0</div>
+          <span class="stat-label">Years of Travel & Trade</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       IMPORT / EXPORT DETAILS
+       ========================================== -->
+  <section class="trade-section section-padding reveal" id="trade">
+    <div class="container">
+      <div class="trade-container">
+        <div class="trade-content">
+          <div class="section-header" style="text-align: left; margin-bottom: 2.5rem;">
+            <span>Customs & Freight</span>
+            <h2 style="padding-bottom: 1rem; display: block;">Commercial Trade Logistics</h2>
+          </div>
+          <p style="margin-bottom: 2rem; color: #555555; line-height: 1.8;">
+            We oversee sea and air transport routes. Our in-house agents handle custom declarations, port tariff
+            calculations, and cargo clearance. You avoid supply chain delays.
+          </p>
+          <a href="#contact" class="btn-primary" id="cta-trade-consult">Request Logistics Tariff</a>
+        </div>
+
+        <div class="trade-graphics">
+          <div class="trade-card" id="trade-procurement">
+            <h4>01. Procurement</h4>
+            <p>We source commercial cargo from vetted suppliers in manufacturing hubs.</p>
+          </div>
+          <div class="trade-card" id="trade-customs">
+            <h4>02. Port Clearance</h4>
+            <p>Our agents coordinate container release and handle customs inspection documents.</p>
+          </div>
+          <div class="trade-card" id="trade-forwarding">
+            <h4>03. Air & Ocean Freight</h4>
+            <p>We reserve cargo space on direct routes to minimize layover damage risks.</p>
+          </div>
+          <div class="trade-card" id="trade-distribution">
+            <h4>04. Warehousing</h4>
+            <p>We arrange secure storage and final overland distribution to your distribution points.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       TESTIMONIALS SECTION
+       ========================================== -->
+  <section class="testimonials-section section-padding reveal" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span>Client Experiences</span>
+        <h2>What Our Partners Say</h2>
+      </div>
+
+      <div class="testimonials-carousel" id="testimonial-carousel-container">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-slide active" id="slide-1">
+          <blockquote class="testimonial-quote">
+            "ABY International Travel manages our cargo shipments and flight arrangements throughout the year. We have
+            seen zero delays in our custom clearances."
+          </blockquote>
+          <span class="testimonial-author">S. Rahman</span>
+          <span class="testimonial-author-title">Managing Director, RMG Exporters Ltd</span>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-slide" id="slide-2">
+          <blockquote class="testimonial-quote">
+            "Booking flights to Europe was fast. Their customer care agents resolved a flight cancellation with the
+            carrier in under twenty minutes."
+          </blockquote>
+          <span class="testimonial-author">Farah Chowdhury</span>
+          <span class="testimonial-author-title">Frequent Flyer</span>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-slide" id="slide-3">
+          <blockquote class="testimonial-quote">
+            "Their import clearance staff prevented major port demurrage fees during our terminal transition. We rely on
+            them for all shipments."
+          </blockquote>
+          <span class="testimonial-author">M. Al-Masri</span>
+          <span class="testimonial-author-title">Head of Supply Chain, Apex Tech</span>
+        </div>
+      </div>
+
+      <div class="carousel-dots" aria-hidden="true">
+        <button class="carousel-dot active" aria-label="Go to testimonial slide 1"></button>
+        <button class="carousel-dot" aria-label="Go to testimonial slide 2"></button>
+        <button class="carousel-dot" aria-label="Go to testimonial slide 3"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       CONTACT / BOOKING SECTION
+       ========================================== -->
+  <section class="contact-section section-padding reveal" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div>
+            <h3>Start Your Journey</h3>
+            <p>
+              Enquire about ticket bookings or request cargo tariffs from our specialists. We respond within three
+              business hours.
+            </p>
+          </div>
+
+          <ul class="contact-details">
+            <li class="contact-details-item" id="info-phone">
+              <svg viewBox="0 0 24 24" stroke="currentColor">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+              <span>01753514759</span>
+            </li>
+            <li class="contact-details-item" id="info-email">
+              <svg viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span><a href="mailto:abyinternationlastravels@gmail.com">abyinternationlastravels@gmail.com</a></span>
+            </li>
+            <li class="contact-details-item" id="info-address">
+              <svg viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Gulshan 2 Tower, Dhaka, Bangladesh</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-form-container">
+          <form id="travel-contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Jane Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" class="form-control" placeholder="jane@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" class="form-control" placeholder="+880 17 0000 0000" required>
+            </div>
+
+            <div class="form-group">
+              <label for="service-interest">Service of Interest</label>
+              <select id="service-interest" class="form-control" required>
+                <option value="" disabled selected>Select a service...</option>
+                <option value="flights">Airline Tickets & Bookings</option>
+                <option value="import">Commercial Import Services</option>
+                <option value="export">Commercial Export Cargo</option>
+                <option value="trade">General Logistics Consultation</option>
+                <option value="general">Other Information Enquiry</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" class="form-control"
+                placeholder="Describe your flight itinerary or trade cargo details here..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" id="btn-submit-form">Send Enquiry</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>ABY</h4>
+          <p>Connecting international flights and logistics routes. We handle booking tickets and shipping containers.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="footer-socials-link" aria-label="ABY on Facebook" id="social-fb">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.14H6V12h3.5v11.5h5V12h3.5l.77-4.54z">
+                </path>
+              </svg>
+            </a>
+            <a href="#" class="footer-socials-link" aria-label="ABY on Twitter" id="social-twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z">
+                </path>
+              </svg>
+            </a>
+            <a href="#" class="footer-socials-link" aria-label="ABY on LinkedIn" id="social-linkedin">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0z">
+                </path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h5>Agency</h5>
+          <ul class="footer-links">
+            <li><a href="#services" id="footer-link-services">Services</a></li>
+            <li><a href="#destinations" id="footer-link-destinations">Destinations</a></li>
+            <li><a href="#about" id="footer-link-why">Why Choose Us</a></li>
+            <li><a href="#contact" id="footer-link-enquire">Enquire Now</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h5>Services</h5>
+          <ul class="footer-links">
+            <li><a href="#services" id="footer-link-tickets">Airline Ticketing</a></li>
+            <li><a href="#trade" id="footer-link-import">Import Clearances</a></li>
+            <li><a href="#trade" id="footer-link-export">Garment Export Cargo</a></li>
+            <li><a href="#trade" id="footer-link-sea">Ocean Freight</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h5>Contact</h5>
+          <ul class="footer-links">
+            <li><span>Office: 01753514759</span></li>
+            <li><span>Cell: 01753514759</span></li>
+            <li><span>Email: abyinternationlastravels@gmail.com</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 ABY International Travel. All Rights Reserved.</p>
+        <p>Managed in Gulshan, Dhaka.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       PLANE SWIPE TRANSITION OVERLAY
+       ========================================== -->
+  <div class="plane-swipe-container" aria-hidden="true">
+    <div class="plane-swipe-bg" id="plane-swipe-bg"></div>
+    <svg class="plane-swipe-graphic" id="plane-swipe-graphic" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L14 19v-5.5L21 16z" />
+    </svg>
+  </div>
+
+  <!-- ==========================================
+       BOOKING WIZARD MODAL OVERLAY
+       ========================================== -->
+  <div class="booking-overlay" id="booking-overlay">
+    <div class="container">
+      <button class="booking-close-btn" id="btn-close-booking" aria-label="Close booking form">&times;</button>
+
+      <!-- Wizard Progress Header -->
+      <div class="booking-progress-header">
+        <span class="booking-progress-step active" id="prog-step-1">1. Flight Details</span>
+        <span class="booking-progress-step" id="prog-step-2">2. Traveler Info</span>
+        <span class="booking-progress-step" id="prog-step-3">3. E-Ticket</span>
+      </div>
+
+      <!-- Step 1 Panel: Flight selection -->
+      <div class="booking-step-panel active" id="panel-booking-step-1">
+        <h3>Choose Your Route</h3>
+        <p>Select your flight path, carrier, and travel schedule below.</p>
+
+        <form id="form-booking-step-1" class="contact-form">
+          <div class="booking-options-grid">
+            <div class="form-group">
+              <label for="booking-country">Destination Country</label>
+              <select id="booking-country" class="form-control" required>
+                <option value="" disabled selected>Select country...</option>
+                <option value="United Arab Emirates">United Arab Emirates</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Canada">Canada</option>
+                <option value="United States">United States</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="booking-airline">Preferred Airline</label>
+              <select id="booking-airline" class="form-control" required>
+                <option value="" disabled selected>Select airline...</option>
+                <option value="Emirates">Emirates</option>
+                <option value="British Airways">British Airways</option>
+                <option value="Turkish Airlines">Turkish Airlines</option>
+                <option value="Thai Airways">Thai Airways</option>
+                <option value="Qatar Airways">Qatar Airways</option>
+                <option value="Biman Bangladesh Airlines">Biman Bangladesh Airlines</option>
+                <option value="Singapore Airlines">Singapore Airlines</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="booking-date">Departure Date</label>
+            <input type="date" id="booking-date" class="form-control" required>
+          </div>
+
+          <div class="booking-wizard-actions">
+            <div></div> <!-- Spacer -->
+            <button type="submit" class="btn-primary" id="btn-next-step-1">Proceed to Passenger Info</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Step 2 Panel: Traveler info -->
+      <div class="booking-step-panel" id="panel-booking-step-2">
+        <h3>Traveler Profile</h3>
+        <p>Provide contact records and legal credentials for ticket generation.</p>
+
+        <form id="form-booking-step-2" class="contact-form">
+          <div class="form-group">
+            <label for="passenger-name">Full Passenger Name (As in Passport)</label>
+            <input type="text" id="passenger-name" class="form-control" placeholder="Jane Doe" required>
+          </div>
+
+          <div class="booking-options-grid">
+            <div class="form-group">
+              <label for="passenger-phone">Mobile Phone Number</label>
+              <input type="tel" id="passenger-phone" class="form-control" placeholder="+880 17 0000 0000" required>
+            </div>
+
+            <div class="form-group">
+              <label for="passenger-email">Gmail Address</label>
+              <input type="email" id="passenger-email" class="form-control" placeholder="jane@gmail.com" required>
+            </div>
+          </div>
+
+          <div class="booking-options-grid">
+            <div class="form-group">
+              <label for="passenger-passport">Passport Number</label>
+              <input type="text" id="passenger-passport" class="form-control" placeholder="A00000000" required>
+            </div>
+
+            <div class="form-group">
+              <label for="passenger-passport-expiry">Passport Expiry Date</label>
+              <input type="date" id="passenger-passport-expiry" class="form-control" required>
+            </div>
+          </div>
+
+          <div class="booking-wizard-actions">
+            <button type="button" class="btn-back" id="btn-back-step-2">Back</button>
+            <button type="submit" class="btn-primary" id="btn-submit-booking">Generate E-Ticket</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Step 3 Panel: Success Ticket -->
+      <div class="booking-step-panel" id="panel-booking-step-3">
+        <h3>Booking Confirmed</h3>
+        <p>Your itinerary ticket request has been logged successfully.</p>
+
+        <!-- Generated Ticket Card -->
+        <div class="ticket-wrapper">
+          <div class="ticket-header">
+            <div class="ticket-logo">
+              ABY
+              <span>International Travel</span>
+            </div>
+            <div class="ticket-type">E-Ticket Passenger Coupon</div>
+          </div>
+
+          <div class="ticket-body">
+            <div class="ticket-row">
+              <div class="ticket-col">
+                <span class="ticket-label">Passenger Name</span>
+                <span class="ticket-val" id="ticket-out-name">-</span>
+              </div>
+              <div class="ticket-col" style="text-align: right;">
+                <span class="ticket-label">Passport Number</span>
+                <span class="ticket-val" id="ticket-out-passport">-</span>
+              </div>
+            </div>
+
+            <div class="ticket-row">
+              <div class="ticket-col">
+                <span class="ticket-label">Destination</span>
+                <span class="ticket-val large" id="ticket-out-destination">London</span>
+              </div>
+              <div class="ticket-col" style="text-align: right;">
+                <span class="ticket-label">Preferred Airline</span>
+                <span class="ticket-val large" id="ticket-out-airline">Emirates</span>
+              </div>
+            </div>
+
+            <div class="ticket-row">
+              <div class="ticket-col">
+                <span class="ticket-label">Departure Date</span>
+                <span class="ticket-val" id="ticket-out-date">-</span>
+              </div>
+              <div class="ticket-col" style="text-align: right;">
+                <span class="ticket-label">Booking Status</span>
+                <span class="ticket-val" style="color: var(--gold-accent);">REQUESTED</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ticket-footer">
+            <div class="ticket-number" id="ticket-out-number">ABY-8729103</div>
+            <div class="ticket-barcode"></div>
+          </div>
+        </div>
+
+        <div class="booking-wizard-actions">
+          <div></div> <!-- Spacer -->
+          <button type="button" class="btn-primary" id="btn-finish-booking">Return to Website</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       SPIDER THANK YOU POPOUT
+       ========================================== -->
+  <div class="spider-popout-container" id="spider-popout" aria-hidden="true">
+    <div class="spider-web" id="spider-web"></div>
+    <div class="spider-character" id="spider-char">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <!-- Legs Left -->
+        <g class="legs-left">
+          <path d="M46 45 C30 40, 20 25, 10 35" stroke="var(--forest-deep)" stroke-width="3" fill="none" stroke-linecap="round" />
+          <path d="M46 50 C25 50, 15 35, 8 50" stroke="var(--forest-deep)" stroke-width="3" fill="none" stroke-linecap="round" />
+          <path d="M46 55 C25 60, 18 65, 12 75" stroke="var(--forest-deep)" stroke-width="3" fill="none" stroke-linecap="round" />
+          <path d="M46 60 C30 75, 25 80, 20 90" stroke="var(--forest-deep)" stroke-width="3" fill="none" stroke-linecap="round" />
+        </g>
+        
+        <!-- Legs Right -->
+        <g class="legs-right">
+          <path d="M54 45 C70 40, 80 25, 90 35" stroke="var(--forest-deep)" stroke-width="3" fill="none" stroke-linecap="round" />
+          <path d="M54 50 C75 50, 85 35, 92 50" stroke="var(--forest-deep)" stroke-width="3" fill="none" stroke-linecap="round" />
+          <path d="M54 55 C75 60, 82 65, 88 75" stroke="var(--forest-deep)" stroke-width="3" fill="none" stroke-linecap="round" />
+          <path d="M54 60 C70 75, 75 80, 80 90" stroke="var(--forest-deep)" stroke-width="3" fill="none" stroke-linecap="round" />
+        </g>
+        
+        <!-- Body (Abdomen & Cephalothorax) -->
+        <ellipse cx="50" cy="65" rx="14" ry="18" fill="var(--forest-deep)" stroke="var(--gold-accent)" stroke-width="1.5" />
+        <circle cx="50" cy="48" r="10" fill="var(--forest-deep)" stroke="var(--gold-accent)" stroke-width="1.5" />
+        
+        <!-- Eyes -->
+        <circle cx="47" cy="45" r="2" fill="#ff4d4d" class="spider-eye" />
+        <circle cx="53" cy="45" r="2" fill="#ff4d4d" class="spider-eye" />
+        <circle cx="44" cy="48" r="1.2" fill="#ff4d4d" />
+        <circle cx="56" cy="48" r="1.2" fill="#ff4d4d" />
+      </svg>
+    </div>
+    <div class="spider-bubble" id="spider-bubble">
+      <p id="spider-bubble-text">Thank you for reaching us! We will let you know soon enough.</p>
+      <button class="spider-bubble-close" id="btn-close-spider" aria-label="Close message">Okay</button>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       CARTOON TOURIST GUIDE POPOUT
+       ========================================== -->
+  <div class="guide-popout-container" id="guide-popout" aria-hidden="true">
+    <div class="guide-character-wrap" id="guide-char-wrap" title="Tourist Guide">
+      <svg class="guide-svg" viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Hat (Safari/Tourist Hat) -->
+        <path d="M50 50 C50 20, 110 20, 110 50 Z" fill="#c2a678" stroke="#5d4c37" stroke-width="3" />
+        <ellipse cx="80" cy="50" rx="45" ry="8" fill="#d9be94" stroke="#5d4c37" stroke-width="3" />
+        <rect x="62" y="42" width="36" height="6" fill="#8c2500" />
+        
+        <!-- Hair -->
+        <path d="M52 52 C45 60, 45 75, 50 82 C55 75, 55 60, 52 52 Z" fill="#523927" />
+        <path d="M108 52 C115 60, 115 75, 110 82 C105 75, 105 60, 108 52 Z" fill="#523927" />
+
+        <!-- Face -->
+        <circle cx="80" cy="70" r="24" fill="#ffdbac" stroke="#5d4c37" stroke-width="3" />
+        
+        <!-- Eyes (Happy) -->
+        <circle cx="70" cy="68" r="3.5" fill="#333" />
+        <circle cx="90" cy="68" r="3.5" fill="#333" />
+        <path d="M68 62 C70 63, 72 63, 74 62" stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" />
+        <path d="M86 62 C88 63, 90 63, 92 62" stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" />
+
+        <!-- Rosy Cheeks -->
+        <circle cx="62" cy="76" r="3" fill="#ff9999" opacity="0.6" />
+        <circle cx="98" cy="76" r="3" fill="#ff9999" opacity="0.6" />
+
+        <!-- Nose -->
+        <path d="M80 69 C78 72, 82 72, 80 73" stroke="#5d4c37" stroke-width="2" fill="none" stroke-linecap="round" />
+
+        <!-- Big Cartoon Smile -->
+        <path d="M70 76 C70 88, 90 88, 90 76 Z" fill="#8c2500" stroke="#5d4c37" stroke-width="2.5" />
+        <path d="M73 78 C76 83, 84 83, 87 78" fill="#fff" />
+
+        <!-- Neck -->
+        <rect x="76" y="92" width="8" height="12" fill="#ffdbac" stroke="#5d4c37" stroke-width="3" />
+
+        <!-- Body / Shirt (Tourist Guide Vest over Turquoise Shirt) -->
+        <path d="M52 104 C52 104, 40 160, 48 190 L112 190 C120 160, 108 104, 108 104 Z" fill="#40b5ad" stroke="#5d4c37" stroke-width="3" />
+        <!-- Vest -->
+        <path d="M52 104 L80 140 L108 104 L105 190 L55 190 Z" fill="#d9be94" stroke="#5d4c37" stroke-width="2.5" />
+        <circle cx="62" cy="125" r="2.5" fill="#5d4c37" />
+        <circle cx="62" cy="145" r="2.5" fill="#5d4c37" />
+        <circle cx="98" cy="125" r="2.5" fill="#5d4c37" />
+        <circle cx="98" cy="145" r="2.5" fill="#5d4c37" />
+
+        <!-- Waving Hand Left -->
+        <path d="M48 114 C35 110, 20 85, 12 75 C8 70, 2 76, 6 82 C14 92, 28 122, 38 132" fill="#40b5ad" stroke="#5d4c37" stroke-width="3" />
+        <circle cx="10" cy="72" r="6" fill="#ffdbac" stroke="#5d4c37" stroke-width="2.5" />
+        
+        <!-- Binoculars Hanging from Neck -->
+        <rect x="74" y="112" width="12" height="10" rx="2" fill="#222" />
+        <path d="M72 104 L74 112 M88 104 L86 112" stroke="#222" stroke-width="1.5" />
+      </svg>
+    </div>
+    
+    <!-- Comic Style Speech Bubble -->
+    <div class="guide-comic-bubble" id="guide-comic-bubble">
+      <div class="guide-comic-text">
+        ABY Travels will get you the best experience with the most affordable plans and also will make sure of your safety with full trust. That is why you should choose ABY Travels!
+      </div>
+      <button class="guide-bubble-close" id="btn-close-guide" aria-label="Close message">Got it! 👍</button>
+    </div>
+  </div>
+
+  <!-- Script references -->
+  <script src="script.js"></script>
+</body>
+
+</html>
